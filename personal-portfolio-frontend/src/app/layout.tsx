@@ -9,11 +9,13 @@ export default function RootLayout({
   children: React.ReactNode[] | React.ReactNode
 }) {
   return (
-    <CustomTheme>
-      <Container sx={{ pt: 4, width: "55%" }}>
-        <FloatingMenu></FloatingMenu>
-        {children}
-      </Container>
-    </CustomTheme>
+    <body>
+      <CustomTheme>
+        <Container sx={{ pt: 4, width: "55%" }}>
+          <FloatingMenu></FloatingMenu>
+          {children}
+        </Container>
+      </CustomTheme>
+    </body>
   )
 }
