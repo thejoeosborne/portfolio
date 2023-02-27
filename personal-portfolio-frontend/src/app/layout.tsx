@@ -2,7 +2,6 @@
 import { Container } from "@mui/material"
 import FloatingMenu from "@/components/FloatingMenu"
 import { CustomTheme } from "./theme"
-import { ThemeProvider } from "@mui/material/styles"
 
 export default function RootLayout({
   children,

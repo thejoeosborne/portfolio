@@ -1,19 +1,12 @@
+"use client"
 import * as React from "react"
-import AppBar from "@mui/material/AppBar"
-import Box from "@mui/material/Box"
-import { Button } from "@mui/material"
-import Toolbar from "@mui/material/Toolbar"
-import Typography from "@mui/material/Typography"
-import IconButton from "@mui/material/IconButton"
-import MenuIcon from "@mui/icons-material/Menu"
+import { Button, Box, AppBar, Toolbar } from "@mui/material"
 import {
   HiOutlineHome,
   HiOutlineNewspaper,
   HiOutlineWrenchScrewdriver,
-  HiOutlinePencilSquare,
   HiOutlineDocumentText,
 } from "react-icons/hi2"
-import { RiFilePaper2Line } from "react-icons/ri"
 
 export default function FloatingMenu() {
   return (

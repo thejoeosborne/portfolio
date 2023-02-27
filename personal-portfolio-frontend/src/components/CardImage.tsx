@@ -1,6 +1,5 @@
 "use client"
-import { Card, Avatar, CardMedia } from "@mui/material"
-import Image from "next/image"
+import { Card, CardMedia } from "@mui/material"
 
 export default function CardImage({
   src,

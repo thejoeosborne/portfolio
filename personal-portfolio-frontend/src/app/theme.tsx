@@ -1,5 +1,6 @@
+"use client"
 import { createTheme, ThemeProvider } from "@mui/material/styles"
-import { CssBaseline, GlobalStyles } from "@mui/material"
+import { CssBaseline } from "@mui/material"
 
 const themeConfig = createTheme({
   palette: {
