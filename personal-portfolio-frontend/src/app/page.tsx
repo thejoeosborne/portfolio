@@ -33,7 +33,7 @@ export default function Home() {
               display: "flex",
               flexDirection: "row",
               justifyContent: "start",
-              gap: 4,
+              gap: 2,
             }}
           >
             <IconButton
