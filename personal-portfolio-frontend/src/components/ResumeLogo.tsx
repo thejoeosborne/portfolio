@@ -14,21 +14,18 @@ export default function CardImage({
 }) {
   return (
     <Card
-      raised={raised}
       sx={{
         margin: 1,
         width: width,
         height: height,
       }}
     >
-      <Card sx={{ margin: 0.75 }}>
-        <CardMedia
-          component="img"
-          image={src}
-          alt="Personal headshot"
-          sx={{ width: "100%", height: "100%" }}
-        />
-      </Card>
+      <CardMedia
+        component="img"
+        image={src}
+        alt="Personal headshot"
+        sx={{ width: "100%", height: "100%" }}
+      />
     </Card>
   )
 }

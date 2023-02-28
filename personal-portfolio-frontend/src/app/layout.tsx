@@ -11,7 +11,7 @@ export default function RootLayout({
   return (
     <body>
       <CustomTheme>
-        <Container sx={{ pt: 4, width: "55%" }}>
+        <Container sx={{ pb: 6, pt: 4, width: "55%" }}>
           <FloatingMenu></FloatingMenu>
           {children}
         </Container>
