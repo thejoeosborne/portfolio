@@ -34,9 +34,24 @@ const themeConfig = createTheme({
           backgroundColor: "#f7bad3",
           color: "#4a4a4a",
         },
+        outlined: {
+          borderWidth: 2,
+          borderColor: "#f593bc",
+          textTransform: "none",
+          ":hover": {
+            borderWidth: 2,
+          },
+        },
       },
     },
     MuiTypography: {
+      styleOverrides: {
+        root: {
+          color: "#4a4a4a",
+        },
+      },
+    },
+    MuiCardContent: {
       styleOverrides: {
         root: {
           color: "#4a4a4a",

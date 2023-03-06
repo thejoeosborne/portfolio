@@ -21,11 +21,13 @@ export default function Home() {
           maxWidth={500}
           sx={{ display: "flex", flexDirection: "column", gap: 3 }}
         >
-          <Typography variant="h3" fontSize={72}>
+          <Typography variant="h3" fontSize={66}>
             Hi, I'm Joe.
           </Typography>
-          <Typography variant="h3" fontSize={26}>
-            I'm a software engineer with early stage startup experience.
+          <Typography variant="h3" fontSize={24}>
+            I'm a software engineer with early stage startup experience. I made
+            this Next.js app in Typescript and React to showcase some of my
+            work.
           </Typography>
           <Box
             sx={{
