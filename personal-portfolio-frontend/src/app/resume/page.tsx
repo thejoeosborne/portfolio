@@ -17,7 +17,7 @@ export default function Resume() {
       <Box sx={{ display: "flex", flexDirection: "column", gap: 3 }}>
         <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
           <ResumeCompanyHeader
-            src="https://media.licdn.com/dms/image/D560BAQEUv1_9ip5KPQ/company-logo_100_100/0/1667243415884?e=1685577600&v=beta&t=uWfjD7WuLQI7G7zVe5SBHrn1E3Z0xfjhv0nCF8Cvcl4"
+            src="https://media.licdn.com/dms/image/D560BAQGZM6ddJVt6Iw/company-logo_100_100/0/1681504020852?e=1694044800&v=beta&t=jzPXN0ZavKK1uskS2uUY3gaHjEQDCElHyhfOOrMeQ88"
             companyName="Particl"
             startYear="2021"
             endYear="Present"
@@ -47,7 +47,7 @@ export default function Resume() {
         </Box>
         <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
           <ResumeCompanyHeader
-            src="https://media.licdn.com/dms/image/C4D0BAQG_yP8EE2jxAg/company-logo_100_100/0/1604418400730?e=1685577600&v=beta&t=cYE2Qq1rSPukaLJOkdqJmqVlRa0j49WJPIow47SiDBc"
+            src="https://media.licdn.com/dms/image/C4D0BAQG_yP8EE2jxAg/company-logo_100_100/0/1604418400730?e=1694044800&v=beta&t=V9DUztLNxffdQoxtyOb96f_opCN2RfbNH1MVp1nZsHc"
             companyName="BambooHR"
             startYear="2020"
             endYear="2021"
@@ -66,7 +66,7 @@ export default function Resume() {
         </Box>
         <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
           <ResumeCompanyHeader
-            src="https://media.licdn.com/dms/image/C4E0BAQHaWJMkOjnssA/company-logo_100_100/0/1614965958560?e=1685577600&v=beta&t=RgPWG7CLMVZ9hKGqhGPm7CFfWaWRdKJSm5zD2psSVGI"
+            src="https://media.licdn.com/dms/image/C4E0BAQHaWJMkOjnssA/company-logo_100_100/0/1614965958560?e=1694044800&v=beta&t=xUoCnrPoz2R_Sto5kcWy0Xqrl_oyOP099AVAoNk5aqw"
             companyName="Dexi.io"
             startYear="2019"
             endYear="2020"
