@@ -56,13 +56,13 @@ export default function FloatingMenu() {
             >
               Projects
             </Button>
-            <Button
+            {/* <Button
               startIcon={<HiOutlineDocumentText />}
               href={"/resume"}
               variant="contained"
             >
               Resume
-            </Button>
+            </Button> */}
           </Box>
         </Toolbar>
       </AppBar>
