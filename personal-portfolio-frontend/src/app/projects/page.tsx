@@ -15,9 +15,9 @@ export default function Resume() {
       />
       <Box sx={{ display: "flex", flexDirection: "column", gap: 3 }}>
         <ProjectCard
-          title="utahmortgagecalculator.io"
+          title="homesliceapp.ai"
           subtitle="Hyper accuracte mortgage calculator for real estate in Utah. Also has a market overview that pulls live data from every active lisitng on the market."
-          url="https://www.utahmortgagecalculator.io"
+          url="https://www.homesliceapp.ai"
           buttonIcon={<HiOutlineGlobeAlt size={16} />}
           buttonText="View Website"
         />
