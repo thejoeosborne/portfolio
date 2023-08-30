@@ -13,12 +13,20 @@ export default function Resume() {
         title="Blog"
         subtitle="A peek into things that go on in my head."
       />
-      <BlogPostCard
-        title="Web scraping is an art, not a science"
-        subtitle="Refining web scraping skills and processes requires a degree of artistry, not just raw programming knowledge."
-        date="March 4, 2023"
-        url="https://medium.com/@joerosborne/web-scraping-is-an-art-not-a-science-ae2bf16a6521"
-      />
+      <Box sx={{ display: "flex", flexDirection: "column", gap: 3 }}>
+        <BlogPostCard
+          title="3 Barriers to Entry in Real Estate and How I Overcame Them"
+          subtitle="and how I got insanely lucky at age 20."
+          date="August 30, 2023"
+          url="https://medium.com/@joerosborne/3-barriers-to-entry-in-real-estate-and-how-i-overcame-them-8ffbff7dbf04"
+        />
+        <BlogPostCard
+          title="Web scraping is an art, not a science"
+          subtitle="Refining web scraping skills and processes requires a degree of artistry, not just raw programming knowledge."
+          date="March 4, 2023"
+          url="https://medium.com/@joerosborne/web-scraping-is-an-art-not-a-science-ae2bf16a6521"
+        />
+      </Box>
     </>
   )
 }

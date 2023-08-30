@@ -25,72 +25,81 @@ export default function BlogPostCard({
     <Card
       variant="outlined"
       sx={{
-        height: 200,
+        height: 175,
+        flexShrink: 0,
         backgroundColor: "transparent",
         display: "flex",
         flexDirection: "column",
+        justifyContent: "space-between",
       }}
-      title="Web SCraping"
     >
-      <CardHeader
-        disableTypography
-        sx={{ fontWeight: "bold", fontSize: 26, mb: -3 }}
-        title={title}
-      ></CardHeader>
-      <CardContent
+      <Box
         sx={{
           display: "flex",
+          gap: 2,
           flexDirection: "column",
-          gap: 3,
         }}
       >
-        <Box sx={{ display: "flex", maxWidth: 700 }}>
+        <CardHeader
+          disableTypography
+          sx={{ fontWeight: "bold", fontSize: 26, mb: -3 }}
+          title={title}
+        >
+          {" "}
+        </CardHeader>
+        <Box sx={{ display: "flex", px: "16px" }}>
           <Typography fontSize={18}>{subtitle}</Typography>
         </Box>
+      </Box>
+      <CardContent sx={{ display: "flex", paddingBottom: 0 }}>
         <Box
           sx={{
             display: "flex",
-            flexDirection: "row",
-            alignItems: "center",
-            gap: 4,
+            flexDirection: "column",
+            gap: 3,
+            justifyContent: "space-between",
           }}
         >
-          <Box
-            sx={{
-              display: "flex",
-              flexDirection: "row",
-              alignItems: "center",
-              gap: 1,
-            }}
-          >
-            <HiOutlineCalendar />
-            <Typography>{date}</Typography>
-          </Box>
-          <Box
-            sx={{
-              display: "flex",
-              flexDirection: "row",
-              alignItems: "end",
-              gap: 0.5,
-              cursor: "pointer",
-            }}
-          >
-            <Link
-              href={url}
-              underline="none"
-              sx={{ display: "flex", flexDirection: "row", alignItems: "end" }}
-              target="blank"
-              color="primary.dark"
+          <Box sx={{ display: "flex", flexDirection: "row", gap: 2 }}>
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                gap: 1,
+              }}
             >
-              <Typography
+              <HiOutlineCalendar />
+              <Typography>{date}</Typography>
+            </Box>
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                gap: 0.5,
+                cursor: "pointer",
+              }}
+            >
+              <Link
+                href={url}
+                underline="none"
+                sx={{
+                  display: "flex",
+                  flexDirection: "row",
+                }}
+                target="blank"
                 color="primary.dark"
-                fontWeight="bold"
-                sx={{ textDecoration: "none" }}
               >
-                Read More
-              </Typography>
-              <HiOutlineArrowSmRight color="primary.dark" size={22} />
-            </Link>
+                <Typography
+                  color="primary.dark"
+                  fontWeight="bold"
+                  sx={{ textDecoration: "none" }}
+                >
+                  Read More
+                </Typography>
+                <HiOutlineArrowSmRight color="primary.dark" size={22} />
+              </Link>
+            </Box>
           </Box>
         </Box>
       </CardContent>
